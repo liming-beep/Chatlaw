@@ -1,5 +1,28 @@
+# Python缓存文件（不上传）
 __pycache__/
 *.py[cod]
-models/
+*$py.class
+
+# 虚拟环境（不上传）
+env/
+venv/
 chatlaw_13B/
+
+# 大模型文件（不上传，太大了）
+models/
+/workspace/models/
+*.pth
+*.bin
+*.ckpt
+
+# 系统文件
+.DS_Store
+*.swp
+*~
+
+# 日志文件
 *.log
+
+# 临时文件
+*.zip
+*.tar.gz
