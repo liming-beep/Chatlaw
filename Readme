@@ -1,0 +1,38 @@
+# ChatLaw - 法律智能问答系统
+
+人工智能课程大作业 | 基于RAG的法律智能问答系统
+
+## 快速开始
+
+```bash
+# 安装依赖
+pip install -r requirements.txt
+
+# 运行Web应用
+streamlit run app_streamlit.py --server.address 0.0.0.0 --server.port 8501
+```
+
+## 项目结构
+
+```
+ChatLaw/
+├── model_training.py          # RAG模型实现
+├── app_streamlit.py           # Web应用
+├── train_data.jsonl           # 训练数据(1052条)
+├── ChatLaw大作业报告.docx     # 完整报告
+└── README.md                  # 项目说明
+```
+
+## 技术栈
+
+- Python 3.10 + PyTorch 2.0
+- Sentence-Transformers + Faiss GPU  
+- Streamlit 1.29
+
+## 作者
+
+liming-beep
+
+## 许可
+
+MIT License
